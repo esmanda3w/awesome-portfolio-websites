@@ -34,7 +34,7 @@ if(mybutton) {
 let header = $(`
 <nav class="fixed-top black">
 <div class="nav-wrapper">
-    <a href="#!" class="brand-logo"><img src="assets/images/John-Doe1.png"></a>
+    <a href="#!" class="brand-logo"><img src="assets/images/banner.png"></a>
     <a href="#" data-target="mobile-demo" class="white-text sidenav-trigger"><i
             class="material-icons">menu</i></a>
     <ul class="right hide-on-med-and-down">
@@ -105,30 +105,9 @@ let footer = $(`
         <a href="#" class="git sub-footer-icon">
           <i class="fab fa-github"></i>
         </a>
-        <a href="#" class="twitter sub-footer-icon">
-          <i class="fab fa-twitter"></i>
-        </a>
         <a href="#" class="email-icon sub-footer-icon" >
         <i id="mail" class="fa fa-envelope" ></i>
         </a>
-        <a href="#" class="kaggle sub-footer-icon" >
-        <i class="fab fa-kaggle" id="kaggle-icon" ></i>
-        </a> 
-        <!-- <a href="#" class="google-scholar sub-footer-icon">
-        <i class="ai ai-google-scholar-square ai-3x" ></i>
-        </a>
-         <a href="#" class="leetcode sub-footer-icon">
-        <span class="iconify" data-icon="cib:leetcode" data-inline="false"></span>
-        </a>
-        <a href="#" class="codeforces sub-footer-icon">
-        <span class="iconify" data-icon="simple-icons:codeforces" data-inline="false"></span>
-        </a>
-        <a href="#" class="dribbble sub-footer-icon">
-              <i class="fab fa-dribbble"></i>
-            </a>
-            <a href="#" class="instagram sub-footer-icon">
-            <i class="fab fa-instagram"></i>
-          </a>  -->
         </div>
     </div>
     <div class="footer-right">
