@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
-    title: "Project Kickstart 2020",
+    title: "Project Kickstart",
     cardImage: "assets/images/experience-page/Project.png",
     description:
       "Introduced coding to children from disadvantaged backgrounds.",
