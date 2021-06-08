@@ -5,7 +5,7 @@ const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
     title: "Software Development Intern",
-    cardImage: "assets/images/experience-page/flipkart.jpg",
+    cardImage: "assets/images/experience-page/dsta.png",
     place: "DSTA",
     time: "(May, 2021 - present)",
     desp: "<li>Apply Design Innovation approaches to conduct user interviews and gather requirements.</li> <li>Design and develop prototype.</li> <li>Work directly with the customers to validate and refine their work.</li>",
