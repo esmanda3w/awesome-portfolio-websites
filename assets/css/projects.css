@@ -256,7 +256,7 @@ body{
 .rImg{
     margin-left: -2.5em;
     width: 17em;
-    height: 17em;
+    /* height: 17em; */
     border-radius: 10px;
 
 }
