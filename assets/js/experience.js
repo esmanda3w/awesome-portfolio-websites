@@ -60,7 +60,7 @@ const showCards = () => {
   volunteershipcards.forEach(
     ({ title, cardImage, description }) =>
       (output += `        
-      <div class="card volunteerCard" style="height: 600px;width:400px">
+      <div class="card volunteerCard" style="height: 600px;width:400px;grid-area: b;">
       
       <img src="${cardImage}" height="300" width="65" class="card-img" style="border-radius:10px">
       <div class="content">

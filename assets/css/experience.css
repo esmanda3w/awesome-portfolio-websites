@@ -329,6 +329,7 @@ ul ol{
 @media (min-width: 800px) {
   .page-content {
     grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "a b c";
   }
 }
 

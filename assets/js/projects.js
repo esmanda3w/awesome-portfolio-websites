@@ -53,7 +53,7 @@ const fillData = () => {
             
                         <!--CITE BUTTON-->
                         <div class="d-flex" style="margin-right:5%;">
-                            <button class="button button-accent button-small text-right button-abstract " type="button" onclick="window.location.href='${Previewlink}'">
+                            <button class="button button-accent button-small text-right button-abstract " type="button" onclick="window.open('${Previewlink}')">
                                 SEE LIVE
                             </button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         </div>
@@ -76,11 +76,11 @@ const fillData = () => {
             
                         <!--CITE BUTTON-->
                         <div class="d-flex" style="margin-right:5%;">
-                            <button class="button button-accent button-small text-right button-abstract " type="button" onclick="window.location.href='${Previewlink}'">
+                            <button class="button button-accent button-small text-right button-abstract " type="button" onclick="window.open('${Previewlink}')">
                                 SEE LIVE
                             </button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     
-                            <button class="button button-accent button-small text-right button-abstract " type="button" onclick="window.location.href='${Githublink}'">
+                            <button class="button button-accent button-small text-right button-abstract " type="button" onclick="window.open('${Githublink}')">
                                 SOURCE CODE
                             </button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         </div>
