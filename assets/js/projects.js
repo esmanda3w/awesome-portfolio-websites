@@ -10,7 +10,8 @@ const research = [
         researchYr : "May – July 2020",
         image : "assets/images/research-page/escardia.png",
         Previewlink: "https://simmer.io/@Esmanda/milestone3draft",
-        Githublink: ""
+        Githublink: "",
+        Credlink : "https://sgq.io/YuUBKIC"
     },
     {
         title : "PIVOT",
@@ -19,7 +20,8 @@ const research = [
         researchYr : "September – November 2020",
         image : "assets/images/research-page/pivot.png",
         Previewlink: "https://ay2021s1-cs2103-f09-2.github.io/tp/",
-        Githublink: "https://github.com/AY2021S1-CS2103-F09-2/tp"
+        Githublink: "https://github.com/AY2021S1-CS2103-F09-2/tp",
+        Credlink: ""
     },
     {
         title : "Bikini Bot",
@@ -28,14 +30,15 @@ const research = [
         researchYr : "Aug – September 2020",
         image : "assets/images/research-page/bikini.png",
         Previewlink: "https://esmanda3w.github.io/ip/",
-        Githublink: "https://github.com/esmanda3w/ip"
+        Githublink: "https://github.com/esmanda3w/ip",
+        Credlink: ""
     }
 ];
    
 const fillData = () => {
     let output = "";
     research.forEach(
-        ({image, title, authors, conferences, researchYr, Previewlink, Githublink}) =>
+        ({image, title, authors, conferences, researchYr, Previewlink, Githublink, Credlink}) =>
         {if (Githublink === "") {
             output +=`
                 <tr> 
@@ -53,8 +56,12 @@ const fillData = () => {
             
                         <!--CITE BUTTON-->
                         <div class="d-flex" style="margin-right:5%;">
-                            <button class="button button-accent button-small text-right button-abstract " type="button" onclick="window.open('${Previewlink}')">
+                            <button class="button button-accent button-small text-center button-abstract " type="button" onclick="window.open('${Previewlink}')">
                                 SEE LIVE
+                            </button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                            <button class="button button-accent button-small text-center button-abstract " type="button" onclick="window.open('${Credlink}')">
+                                SEE CREDENTIALS
                             </button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         </div>
                     </td>
@@ -76,11 +83,11 @@ const fillData = () => {
             
                         <!--CITE BUTTON-->
                         <div class="d-flex" style="margin-right:5%;">
-                            <button class="button button-accent button-small text-right button-abstract " type="button" onclick="window.open('${Previewlink}')">
+                            <button class="button button-accent button-small text-center button-abstract " type="button" onclick="window.open('${Previewlink}')">
                                 SEE LIVE
                             </button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     
-                            <button class="button button-accent button-small text-right button-abstract " type="button" onclick="window.open('${Githublink}')">
+                            <button class="button button-accent button-small text-center button-abstract " type="button" onclick="window.open('${Githublink}')">
                                 SOURCE CODE
                             </button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         </div>
