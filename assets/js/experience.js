@@ -7,8 +7,15 @@ const exp = [
     title: "Software Development Intern",
     cardImage: "assets/images/experience-page/dsta.png",
     place: "DSTA",
-    time: "(May, 2021 - present)",
-    desp: "<li>Apply Design Innovation approaches to conduct user interviews and gather requirements.</li> <li>Design and develop prototype.</li> <li>Work directly with the customers to validate and refine their work.</li>",
+    time: "(May, 2022 - July, 2022)",
+    desp: "<li>Collected annotated speech data for low-resource Singaporean languages of interest by scraping Youtube</li> <li>Built a pipeline for end-to-end speech translation using ESPnet toolkit</li> <li>Trained automatic speech recognition models to achieve a WER of 34%</li> <li>Trained end-to-end speech translation models to achieve a BLEU score of 22.5</li>",
+  },
+  {
+    title: "Software Development Intern",
+    cardImage: "assets/images/experience-page/dsta.png",
+    place: "DSTA",
+    time: "(May, 2021 - July, 2021)",
+    desp: "<li>Leveraged data-driven insights to forecast failure of machines and increase efficiency of maintenance operations</li> <li>Analysed client’s business requirements and conducted user validation and acceptance tests to refine proposed solutions</li> <li>Developed dashboard prototype to be handed to the vendor for development</li>",
   },
 ];
 
